@@ -17,38 +17,30 @@ class LinkedList:
     def __init__(self):
         self.head = None
 
-    
-    def make_list(self):
-        self.head = None
-    
-    def get_list(self):
-        next_element = self.head
-        complete_list = []
-        while(next_element):
-            complete_list.append(next_element)
-            next_element = next_element.pointer
-        return complete_list
-    
-    def first(self):
-        return self.head()
+    def empty_list(self):
+        # Gives you the empty list
+        return []
 
-    def rest(self):
+    def make_list(self, value, array):
+        # Puts an element at the top of an existing list.
+        # MakeList(3, MakeList(1, MakeList(4, MakeList(2, MakeList(5, EmptyList))))).
         pass
 
-    def tail(self):
-        next_element = self.head
-        while(next_element):
-            next_element = next_element.pointer
-        return next_element
+    def first(self):
+        # Gets first element
+        pass
+    
+        
+    def rest(self):
+        # Everything that is not first
+        pass
 
     def is_empty(self):
-        return self.head != None
+        pass
 
+    def replace_first(self, value, array):
+        pass
 
-    def replace_value(self, original_value, dst_value):
-        counter = 0
-    
-    def replace_at_p
-
-        
+    def replace_rest(self, value, array):
+        pass
 
